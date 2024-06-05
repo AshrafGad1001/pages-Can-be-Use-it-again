@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>Registration Form</header>
+    <form action="#" class="form">
+      <div class="input-box">
+        <label for="FullName">FullName</label>
+        <input id="FullName" type="text" placeholder="Enter Full Name" required />
+      </div>
+      <div class="input-box">
+        <label for="Email">Email Address</label>
+        <input id="Email" type="email" placeholder="Enter Email Address" required />
+      </div>
+      <div class="input-box-group">
+        <div class="input-box">
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="number" placeholder="Enter Email Address" required />
+        </div>
+        <div class="input-box">
+          <label for="BirthDate">Birth Date</label>
+          <input id="BirthDate" type="email" placeholder="Enter Birth Date" required />
+        </div>
+      </div>
+      <div class="gender-box">
+        <h3>Gender</h3>
+        <div class="gender-options">
+          <div class="gender">
+            <input type="radio" id="check-male" name="gender" checked />
+            <label for="check-male">Male</label>
+          </div>
+          <div class="gender">
+            <input type="radio" id="check-female" name="gender" />
+            <label for="check-female">female</label>
+          </div>
+          <div class="gender">
+            <input type="radio" id="check-other" name="gender" />
+            <label for="check-other">prefer Not To Say</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label for="Address">Address</label>
+        <input id="Address" type="email" placeholder="Address" required />
+      </div>
+      <button>Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
